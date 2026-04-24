@@ -1,0 +1,5 @@
+run:
+	go run api/services/sales/main.go | go run api/tooling/logfmt/main.go
+
+tidy:
+	go mod tidy
